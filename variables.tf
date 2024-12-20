@@ -21,12 +21,6 @@ variable "management_resources_tags" {
   }
 }
 
-variable "use_oidc" {
-  type        = bool
-  description = "Set to true to enable OIDC authentication for the Azure connection."
-  default     = true
-}
-
 variable "management_resources_configuration" {
   type = object({
     settings = optional(object({

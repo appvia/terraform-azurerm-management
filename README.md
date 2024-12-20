@@ -40,7 +40,6 @@ The `terraform-docs` utility is used to generate this README. Follow the below s
 | <a name="input_primary_location"></a> [primary\_location](#input\_primary\_location) | Sets the location for "primary" resources to be created in. | `string` | n/a | yes |
 | <a name="input_management_resources_tags"></a> [management\_resources\_tags](#input\_management\_resources\_tags) | Specify tags to add to "management" resources. | `map(string)` | <pre>{<br/>  "BusinessCriticality": "Mission-critical",<br/>  "BusinessUnit": "Platform Operations",<br/>  "DataClassification": "General",<br/>  "OperationsTeam": "Platform Operations",<br/>  "WorkloadName": "ALZ.Management"<br/>}</pre> | no |
 | <a name="input_root_id"></a> [root\_id](#input\_root\_id) | Sets the value used for generating unique resource naming within the module. | `string` | `"alz"` | no |
-| <a name="input_use_oidc"></a> [use\_oidc](#input\_use\_oidc) | Set to true to enable OIDC authentication for the Azure connection. | `bool` | `true` | no |
 
 ## Outputs
 
