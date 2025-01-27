@@ -1,6 +1,6 @@
 module "alz" {
   source  = "Azure/caf-enterprise-scale/azurerm"
-  version = "6.2.0"
+  version = "6.2.1"
 
   providers = {
     azurerm              = azurerm
